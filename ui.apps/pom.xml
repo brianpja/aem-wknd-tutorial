@@ -106,7 +106,12 @@
                             <artifactId>core.wcm.components.all</artifactId>
                             <filter>true</filter>
                         </subPackage>
-                    </subPackages>
+                        <subPackage>
+                            <groupId>com.adobe.cq</groupId>
+                            <artifactId>core.wcm.components.extension</artifactId>
+                            <filter>true</filter>
+                            </subPackage>
+                        </subPackages>
                 </configuration>
             </plugin>
             <plugin>
@@ -146,6 +151,12 @@
         <dependency>
             <groupId>com.adobe.cq</groupId>
             <artifactId>core.wcm.components.all</artifactId>
+            <type>zip</type>
+        </dependency>
+
+        <dependency>
+            <groupId>com.adobe.cq</groupId>
+            <artifactId>core.wcm.components.extension</artifactId>
             <type>zip</type>
         </dependency>
 
