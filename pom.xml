@@ -569,25 +569,15 @@
                 <scope>provided</scope>
             </dependency>
 
-            <!-- Testing -->
+            <!-- Testing Originals -->
             <dependency>
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
                 <version>4.12</version>
                 <scope>test</scope>
             </dependency>
-            <dependency>
-                <groupId>org.slf4j</groupId>
-                <artifactId>slf4j-simple</artifactId>
-                <version>1.7.21</version>
-                <scope>test</scope>
-            </dependency>
-            <dependency>
-                <groupId>org.mockito</groupId>
-                <artifactId>mockito-core</artifactId>
-                <version>2.7.22</version>
-                <scope>test</scope>
-            </dependency>
+
+
             <dependency>
                 <groupId>junit-addons</groupId>
                 <artifactId>junit-addons</artifactId>
@@ -611,6 +601,39 @@
                 <artifactId>commons-lang3</artifactId>
                 <version>3.6</version>
                 <scope>provided</scope>
+            </dependency>
+             <!-- Testing New Additions -->
+            <dependency>
+                <groupId>org.junit</groupId>
+                <artifactId>junit-bom</artifactId>
+                <version>5.4.1</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-simple</artifactId>
+                <version>1.7.25</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.mockito</groupId>
+                <artifactId>mockito-core</artifactId>
+                <version>2.25.1</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.mockito</groupId>
+                <artifactId>mockito-junit-jupiter</artifactId>
+                <version>2.25.1</version>
+                <scope>test</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>io.wcm</groupId>
+                <artifactId>io.wcm.testing.aem-mock.junit5</artifactId>
+                <version>2.4.4</version>
+                <scope>test</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>

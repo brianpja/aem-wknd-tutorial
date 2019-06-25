@@ -40,7 +40,8 @@
                                                 sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
                                                 fieldLabel="Name"
                                                 fieldDescription="The contributor's name to display."
-                                                emptyText="Enter the contributor's name to display."             name="./name"
+                                                emptyText="Enter the contributor's name to display."
+                                                name="./name"
                                                 required="{Boolean}true"/>
                                             <occupations
                                                     jcr:primaryType="nt:unstructured"

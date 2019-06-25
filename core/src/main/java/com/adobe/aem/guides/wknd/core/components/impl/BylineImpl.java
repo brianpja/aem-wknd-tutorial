@@ -55,7 +55,7 @@ public class BylineImpl implements Byline {
 	@Override
 	public List<String> getOccupations() {
 		if (occupations != null) {
-			Collections.sort(occupations);
+			// Collections.sort(occupations);
 		    return occupations;
 		} else {
 		    return Collections.emptyList();
