@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
+    <restaurants/>
+    <bars/>
+    <sports/>
+    <art/>
+    <music/>
+    <shopping/>
     <jcr:content
-        cq:lastModified="{Date}2019-04-15T11:02:16.196-07:00"
+        cq:lastModified="{Date}2019-04-16T09:23:40.024-07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/wknd/settings/wcm/templates/landing-page-template"
+        jcr:mixinTypes="[]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Home"
         sling:resourceType="wknd/components/structure/page">
@@ -12,13 +19,13 @@
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
             <responsivegrid
-                jcr:created="{Date}2019-04-15T10:43:27.818-07:00"
+                jcr:created="{Date}2019-03-19T13:22:52.385-07:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2019-04-15T10:43:36.756-07:00"
+                jcr:lastModified="{Date}2019-03-19T13:23:39.376-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid"/>
         </root>
     </jcr:content>
-    <first-article/>
+    <restaurant/>
 </jcr:root>
